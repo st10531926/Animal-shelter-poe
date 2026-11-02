@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Submit an adoption, volunteering or sponsorship enquiry to Paws & Hope Animal Shelter.">
+<meta name="keywords" content="animal shelter enquiry, adopt a pet, volunteer, sponsor animal rescue">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website"><meta property="og:title" content="Make an Enquiry | Paws & Hope"><meta property="og:description" content="Ask about adopting, volunteering or supporting Paws & Hope.">
+<title>Make an Enquiry | Paws & Hope</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script>
+</head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">♥</span><span>Paws<span class="brand-accent">&</span>Hope</span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="adopt.html">Adopt</a><a href="volunteer.html">Volunteer</a><a href="donate.html">Donate</a><a class="active" href="enquiry.html">Enquire</a><a class="nav-cta" href="contact.html">Contact us</a></nav></div></header>
+<main id="main">
+<section class="page-hero"><div class="container narrow"><p class="eyebrow">Adoption · Volunteering · Sponsorship</p><h1>Tell us how you'd like to <em>help.</em></h1><p>Use this enquiry form for a specific service or opportunity. We will show a relevant next-step message based on your selection.</p></div></section>
+<section class="section container contact-layout">
+<div><p class="eyebrow">Enquiry form</p><h2>Let's find the right <em>next step.</em></h2><p class="body-copy">Choose the kind of enquiry you would like to make. For this student demonstration, the form validates your details and generates an on-screen response. It does not book an animal, process a donation or send data to a real shelter.</p></div>
+<form class="contact-form" id="enquiry-form" novalidate>
+<label for="enq-name">Your name</label><input id="enq-name" name="name" type="text" minlength="2" maxlength="60" required placeholder="Full name">
+<label for="enq-email">Email address</label><input id="enq-email" name="email" type="email" required placeholder="you@example.com">
+<label for="enq-phone">Phone number</label><input id="enq-phone" name="phone" type="tel" required pattern="[0-9+() -]{7,20}" placeholder="e.g. 082 123 4567">
+<label for="enq-type">What are you interested in?</label><select id="enq-type" name="enquiryType" required><option value="">Choose an option</option><option value="adoption">Adopting an animal</option><option value="volunteer">Volunteering</option><option value="sponsor">Sponsoring or donating supplies</option></select>
+<div id="enquiry-extra" hidden><label for="enq-animal">Animal name (if applicable)</label><input id="enq-animal" name="animal" type="text" maxlength="40" placeholder="e.g. Buddy"></div>
+<label for="enq-message">Tell us a little more</label><textarea id="enq-message" name="message" rows="4" minlength="10" maxlength="1000" required placeholder="Share your questions or details..."></textarea>
+<button class="button button-primary" type="submit">Submit enquiry →</button><p id="enquiry-feedback" class="form-status" role="status" aria-live="polite"></p>
+</form></section></main>
+<footer class="site-footer"><div class="container footer-grid"><a class="brand brand-footer" href="index.html"><span class="brand-mark">♥</span><span>Paws<span class="brand-accent">&</span>Hope</span></a><p>Giving every animal a chance to be loved.</p><div class="footer-links"><a href="adopt.html">Adopt</a><a href="volunteer.html">Volunteer</a><a href="contact.html">Contact</a></div></div><div class="container copyright">© 2026 Paws & Hope Animal Shelter · Student website project</div></footer>
+</body></html>

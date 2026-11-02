@@ -1,0 +1,16 @@
+PART 3 HAND-IN NOTES
+
+Implemented:
+- JavaScript mobile navigation, FAQ accordion, animal search/filter/sort, photo lightbox.
+- Separate enquiry.html and contact.html forms with client-side validation.
+- Enquiry-specific response messages and mailto email composition for general contact.
+- Per-page SEO titles, descriptions, keywords, Open Graph tags, semantic headings and alt text.
+- robots.txt, sitemap.xml and basic Organization structured data.
+
+Important before publishing:
+1. Replace hello@pawsandhope.example with the real shelter email in contact.html and js/main.js.
+2. Add a real backend or form service if your lecturer expects AJAX/server-side form processing. The current forms are front-end demonstrations; the enquiry form displays a result locally and the contact form opens the visitor's email application.
+3. The shelter address was not provided, so no real map marker is fabricated. Add a map only after confirming the shelter's location.
+4. Update sitemap.xml with absolute URLs after deployment.
+5. Take fresh screenshots of all new features and add them to the README.
+6. Test every form and interactive feature in a browser before submission.

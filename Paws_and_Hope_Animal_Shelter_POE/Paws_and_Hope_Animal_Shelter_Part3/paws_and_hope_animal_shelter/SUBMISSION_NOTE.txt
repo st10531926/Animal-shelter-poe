@@ -1,0 +1,2 @@
+Submission note:
+This is a rebuilt replacement version of the Animal Shelter website. The original Part 1 source files were lost when the laptop hard drive was wiped due to technical problems. The replacement includes a complete multi-page website and the Part 2 CSS/responsive design requirements. Please explain the circumstances to your lecturer and confirm whether they want any additional Part 1 evidence.
